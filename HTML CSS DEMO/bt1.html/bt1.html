@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center-text" style="background-color:orange; color:white;">SỞ THÍCH CỦA BẠN</h1>
+    <form action="/submit_form.html" method="post">
+        <label for="yourname">Họ và tên:</label>
+        <input type="text" id="yourname" name="yourname"><br>
+        <label for="email"></label>Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <label></label> Sở thích:</label>
+        <input type="checkbox" id="sports" name="interests" value="Thể thao">
+        <label for="sports">Thể thao</label>
+        <input type="checkbox" id="music" name="interests" value="Âm nhạc">
+        <label for="music">Âm nhạc</label>
+        <input type="checkbox" id="read book" name="interests" value="Đọc sách">
+        <label for="read book">Đọc sách</label><br>
+        <input type="checkbox" id="suffing" name="interests" value="Lướt wed">
+        <label for="suffing">Lướt wed</label>
+        <input type="checkbox" id="play game" name="interests" value="Chơi game">
+        <label for="play game">Chơi game</label>
+        <input type="checkbox" id="art" name="interests" value="Điện ảnh">
+        <label for="art">Điện ảnh</label>
+        <input type="checkbox" id="travel" name="interests" value="Du lịch">
+        <label for="travel">Du lịch</label><br>
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>

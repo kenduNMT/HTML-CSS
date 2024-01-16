@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <form action="/submit_form.html" method="post">
+        <hr>
+        <label for="age">What is your age range?</label><br>
+        <select id="age" name="age">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+        </select><br>
+        <label for="income">What is your yearly income range?</label><br>
+        <select id="income" name="income">
+            <option value="0-5000">$0 - $5,000</option>
+            <option value="5,000-10,000">$5,000 - $10,000</option>
+            <option value="10,000-15000">$10,000 - $15,000</option>
+            <option value="15,000-20000">$15,000 - $20,000</option>
+            <option value="20,000-25000">$20,000 - $25,000</option>
+        </select><br>
+        <label>Gender Identity:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+        <label for="nonbinary">Nonbinary</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <input type="test" id="other" name="other">
+        <br>
+        <label for="products">Which of the following products have you purchased in the last 2 months? Please check all that apply.</label><br>
+        <input type="checkbox" id="product1" name="products" value="product1">
+        <label for="product1">Product 1</label><br>
+        <input type="checkbox" id="product2" name="products" value="product2">
+        <label for="product2">Product 2</label><br>
+        <input type="checkbox" id="product3" name="products" value="product3">
+        <label for="product3">Product 3</label>
+        <br>
+        <label for="frequency">How often would you use our new product?</label><br>
+        <input type="radio" id="daily" name="frequency" value="daily">
+        <label for="daily">Daily</label><br>
+        <input type="radio" id="weekly" name="frequency" value="weekly">
+        <label for="weekly">Weekly</label><br>
+        <input type="radio" id="monthly" name="frequency" value="monthly">
+        <label for="monthly">Monthly</label>
+        <br>
+        <label for="price">What would you pay for the new product?</label><br>
+        <input type="number" id="dollars" name="dollars" placeholder="Dollars">
+        <span>.</span>
+        <input type="number" id="cents" name="cents" placeholder="Cents"><br>
+        <label for="features">What features would you like to see in the new product?</label><br>
+        <textarea id="features" name="features"></textarea>
+        <br>
+        <p>Please rate your level of agreement with the following statements.</p>
+        <label for="fairness">Our products are priced fairly.</label><br>
+        <input type="radio" id="strongly_disagree_fairness" name="fairness" value="0">
+        <label for="strongly_disagree_fairness">Strongly Disagree</label><br>
+        <input type="radio" id="disagree_fairness" name="fairness" value="0">
+        <label for="disagree_fairness">Disagree</label><br>
+        <input type="radio" id="agree_fairness" name="fairness" value="0">
+        <label for="agree_fairness">Agree</label><br>
+        <input type="radio" id="strongly_agree_fairness" name="fairness" value="0">
+        <label for="strongly_agree_fairness">Strongly Agree</label>
+        <br>
+        <label for="quality">Our products are high quality.</label><br>
+        <input type="radio" id="strongly_disagree_quality" name="quality" value="0">
+        <label for="strongly_disagree_quality">Strongly Disagree</label><br>
+        <input type="radio" id="disagree_fairness" name="fairness" value="0">
+        <label for="disagree_fairness">Disagree</label><br>
+        <input type="radio" id="agree_fairness" name="fairness" value="0">
+        <label for="agree_fairness">Agree</label><br>
+        <input type="radio" id="strongly_agree_fairness" name="fairness" value="0">
+        <label for="strongly_agree_fairness">Strongly Agree</label>
+        <br>
+        <label for="recommend">You would recommend our product to a friend or coworker.</label><br>
+        <input type="radio" id="strongly_disagree_recommend" name="recommend" value="0">
+        <label for="strongly_disagree_recommend">Strongly Disagree</label><br>
+        <input type="radio" id="disagree_fairness" name="fairness" value="0">
+        <label for="disagree_fairness">Disagree</label><br>
+        <input type="radio" id="agree_fairness" name="fairness" value="0">
+        <label for="agree_fairness">Agree</label><br>
+        <input type="radio" id="strongly_agree_fairness" name="fairness" value="0">
+        <label for="strongly_agree_fairness">Strongly Agree</label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

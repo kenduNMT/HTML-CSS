@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1 style="background-color:rgb(148, 194, 181); color:rgb(0, 89, 255);">ĐĂNG KÝ HỌC VIÊN</h1>
+    <form action="/submit_form.html" method="post">
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="dob">Ngày sinh</label>
+        <input type="date" id="dob" name="dob"><br>
+        <label>Giới tính</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nữ</label><br>
+        <label for="address">Địa chỉ</label>
+        <input type="text" id="address" name="address"><br>
+        <label for="class">Lớp</label><br>
+        <select id="class" name="class">
+        <option value="" disabled selected>-Chọn lớp-</option>
+                <option value="class1">Lớp 1</option>
+                <option value="class2">Lớp 2</option>
+                <option value="class3">Lớp 3</option>
+                <option value="class4">Lớp 4</option>
+                <option value="class5">Lớp 5</option>
+            </select>
+        </select><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Điện thoại</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>
