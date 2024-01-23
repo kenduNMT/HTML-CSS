@@ -1,0 +1,13 @@
+body {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-image: url(maxresdefault.jpg);
+    background-position:center;
+}
+
+h1,ol{
+    color: blue;
+    text-align: left;
+}
