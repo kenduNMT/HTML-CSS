@@ -7,6 +7,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+i{
+    color: rgb(23, 111, 77);
+}
 body {
     font-family: Arial, sans-serif;
 }
