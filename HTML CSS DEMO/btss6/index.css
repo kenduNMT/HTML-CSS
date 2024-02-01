@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 10px;
 }
 i{
     color: rgb(23, 111, 77);
